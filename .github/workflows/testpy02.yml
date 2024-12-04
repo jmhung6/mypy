@@ -1,9 +1,9 @@
 
 
 
-#測試python 檔案
+#測試python 檔案2
 
-name: 執行Python測試
+name: 執行Python測試2
 on:
   push:
     branches:
