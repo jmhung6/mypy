@@ -33,7 +33,7 @@ jobs:
         run: |
           python Unit0302pytest.py  #執行 Unit0302pytest.py
 
-        name: 執行Unit0302pytest.py
+      - name: 執行Unit0302pytest.py
         run: |
           pytest Unit0302pytest.py
 
