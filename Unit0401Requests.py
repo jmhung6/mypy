@@ -12,7 +12,7 @@ soup = bs4.BeautifulSoup(page.text, "html.parser")
 # title_tag=soup.title
 
 # img_tag = soup.find_all("img")
-# for tag in img_tag:
+# for tag in img_tag:#
 #    print(tag)
 
 img2_tag = soup.find_all("img")
@@ -37,3 +37,4 @@ img = requests.get(fullsrc)
 
 with open("download_img\\" + file, "wb") as file:
     file.write(img._content)
+#    file.write(img._content)
